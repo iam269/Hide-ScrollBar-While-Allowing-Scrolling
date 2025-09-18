@@ -1,0 +1,52 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background: #f9f9f9;
+  height: 100vh;
+  overflow-y: scroll; /* Enable scrolling */
+}
+
+/* Hide scrollbar but keep scrolling */
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+body {
+  -ms-overflow-style: none;  /* Internet Explorer and old Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+h2 {
+  margin: 20px 0 10px;
+  color: #34495e;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.long-text {
+  margin-top: 20px;
+}
